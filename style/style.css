@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import url(style_reset.css);
+
+
+/* div#wrap */
+div#wrap {
+    width: 1160px;
+    margin: 0 auto;
+}
+/* div#wrap */
+
+
+/* header#header */
+header#header>h1 {
+    text-align: center;
+    margin: 30px 0;
+}
+/* header#header */
+
+
+/* nav#gnb */
+nav#gnb ul#mainMenu {
+    margin: 20px 0;
+    justify-content: center;
+}
+nav#gnb ul#mainMenu a {
+    color: #111;
+    font-size: 14px;
+}
+nav#gnb ul#mainMenu a:hover {
+    font-weight: bold;
+}
+nav#gnb ul#mainMenu span {
+    width: 1px;
+    height: 14px;
+    border-right: 1px solid #111;
+    margin: 0 20px;
+    margin-top: 3px;
+    display: inline-block;
+}
+/* nav#gnb */
+
+
+/* main#main */
+main#main {
+    padding: 6px;
+    border: 1px solid #000;
+
+    justify-content: space-between;
+}
+
+#main>div {
+    border: 1px solid #000;
+}
+
+#main>div#goodsList {
+    width: 690px;
+    border: 1px solid #000;
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#main>#goodsList>table.goodsInfo {
+    width: 220px;
+    /* border: 1px solid #000; */
+    margin-bottom: 20px;
+    
+    border-collapse: collapse;
+}
+
+#main>#goodsList>table.goodsInfo td {
+    border: 1px solid #000;
+}
+/* main#main */
+
+
+
+
