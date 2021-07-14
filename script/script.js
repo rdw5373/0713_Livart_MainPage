@@ -1,7 +1,2 @@
 // eslint-disable
 
-$(function () {
-
-
-
-});
